@@ -1,2 +1,2 @@
 echo $PORT
-docker run -p $PORT:80 ewalk/server
+docker run -d -p $PORT:80 ewalk/server
